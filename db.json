@@ -1,0 +1,22 @@
+{
+  "persons": [
+    {
+      "id": 1,
+      "name": "Иван",
+      "surname": "Иванов"
+    },
+    {
+      "id": 2,
+      "name": "Андрей",
+      "surname": "Андреев"
+    },
+    {
+      "id": 3,
+      "name": "Максим",
+      "surname": "Максимов"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

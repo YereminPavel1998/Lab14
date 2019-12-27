@@ -1,0 +1,9 @@
+<div class="container">
+  <h3 class="mt-2">Найти контакт</h3>
+  <div class="row col-3">
+      <input type="text" class="form-control" [(ngModel)]="searchString" >
+  </div>
+</div>
+<app-view-person *ngFor="let person of persons | myFilter:searchString" [person]='person' (changeP)='changePersons($event)' (deleteP)='deletePersons($event)'></app-view-person>
+<app-add-person (addP)='addPersons($event)'></app-add-person>
+
